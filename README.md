@@ -59,7 +59,7 @@ __Methods__
 
 _Body_
 - {
-    - "text" : "Value"
+    - "text" : "Value",
     - "from" : "",
     - "to" : "",
 - }
@@ -70,8 +70,12 @@ _Response_
    - "translation": "Translated value"
 - }
 
-## Here some language code 
-const langs = {
+## Language Codes
+
+### This document lists language codes along with their corresponding language names.
+
+```javascript
+var langs = {
     'auto': 'Automatic',
     'af': 'Afrikaans',
     'sq': 'Albanian',
