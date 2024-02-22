@@ -29,14 +29,14 @@ _Body_
 {
     "text" : "Value"
 }
-
+```
 _Response_
 ```javascript
 {
    "status": true,
    "translation": "Translated value"
 }
-
+```
 _Error_
 __Internal server error__
 ```javascript
@@ -45,14 +45,14 @@ __Internal server error__
     "message": "Internal server error.",
     "error": {}
 }
-
+```
 __Invalid Input__
 ```javascript
 {
     "status": false,
     "message": "Invalid text."
 }
-
+```
 ## You can pass laguage code from and to for flexible translation
 
 __URL__
@@ -75,7 +75,7 @@ _Response_
     "status": true,
     "translation": "Translated value"
 }
-
+```
 ## Language Codes
 
 ### This document lists language codes along with their corresponding language names.
