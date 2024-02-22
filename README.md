@@ -53,7 +53,7 @@ __Invalid Input__
     "message": "Invalid text."
 }
 ```
-## You can pass laguage code from and to for flexible translation
+## You can pass language code from and to for flexible translation
 
 __URL__
 - http://localhost:400/translateMore
