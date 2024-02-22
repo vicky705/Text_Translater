@@ -9,6 +9,9 @@ const translateHandler = async(text, fromLan, toLan) => {
 app.use(cors())
 app.use(express.json())
 
+app.get('/', async(req, res) => {
+    res.status(200).json("Welcome")
+})
 
 app.post("/translate", async(req, res) => {
     let status = false
