@@ -2,7 +2,7 @@
 
 ### Installition Guid
 _Step 1_
-- Download File from [Github]()
+- Download File from [Github](https://github.com/vicky705/Text_Translater.git)
 
 _Step 2_
 - Install Node js
