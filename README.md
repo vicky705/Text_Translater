@@ -25,29 +25,33 @@ __Methods__
 - POST
 
 _Body_
-- {
-    - "text" : "Value"
-- }
+```javascript
+{
+    "text" : "Value"
+}
 
 _Response_
-- {
-   - "status": true,
-   - "translation": "Translated value"
-- }
+```javascript
+{
+   "status": true,
+   "translation": "Translated value"
+}
 
 _Error_
 __Internal server error__
-- {
-    - "status": false,
-    - "message": "Internal server error.",
-    - "error": {}
-- }
+```javascript
+{
+    "status": false,
+    "message": "Internal server error.",
+    "error": {}
+}
 
 __Invalid Input__
-- {
-    - "status": false,
-    - "message": "Invalid text."
-- }
+```javascript
+{
+    "status": false,
+    "message": "Invalid text."
+}
 
 ## You can pass laguage code from and to for flexible translation
 
@@ -58,17 +62,19 @@ __Methods__
 - POST
 
 _Body_
-- {
-    - "text" : "Value",
-    - "from" : "",
-    - "to" : "",
-- }
+```javascript
+{
+    "text" : "Value",
+    "from" : "",
+    "to" : "",
+}
 
 _Response_
-- {
-   - "status": true,
-   - "translation": "Translated value"
-- }
+```javascript
+{
+    "status": true,
+    "translation": "Translated value"
+}
 
 ## Language Codes
 
