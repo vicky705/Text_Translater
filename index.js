@@ -13,6 +13,10 @@ app.get('/', async(req, res) => {
     res.status(200).json("Welcome")
 })
 
+app.post('/', async(req, res) => {
+    res.status(200).json("Welcome post")
+})
+
 app.post("/translate", async(req, res) => {
     let status = false
     try{
